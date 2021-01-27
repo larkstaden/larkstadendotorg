@@ -1,4 +1,4 @@
-# larkstaden.github.io
+# larkstadendotorg larkstaden.org
 
 ## Krav
 - git-bash a.k.a. [Git for Windows](https://gitforwindows.org) installerat och inställt som standardprogram för att öppna filer som slutar på `.sh`.
