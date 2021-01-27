@@ -1,5 +1,9 @@
 # larkstadendotorg larkstaden.org
 
+## Publicera till Github
+
+**Förklaring:** Scriptet `publish-script.sh` lägger till alla ändringar som gjorts i mappen `docs` och "pushar" upp de till Github. Genom att publicera från mobirise lokalt på datorn till just den mappen och sen köra scriptet, så hamnar ändringarna på github och därmed ut i cyberspace 😎.
+
 ## Första gången
 
 0. Installera [Git for Windows](https://gitforwindows.org)
@@ -7,11 +11,7 @@
 2. Klistra in: `git clone https://github.com/larkstaden/larkstadendotorg.git` och tryck Enter
 3. En kopia av Githubfilerna laddas ned till din hemma-mapp (`C:\Users\användarnamn\larkstadendotorg`)
 
-## Publicera till Github
-
-**Förklaring:** Scriptet `publish-script.sh` lägger till alla ändringar som gjorts i mappen `docs` och "pushar" upp de till Github. Genom att publicera från mobirise lokalt på datorn till just den mappen och sen köra scriptet, så hamnar ändringarna på github och därmed ut i cyberspace 😎.
-
-### Lathund publicera
+### Varje gång du vill publicera
 
 1. I Mobirise, tryck på `Publish`. Välj `Local Drive Folder` och ange sökvägen till `docs`-mappen (`C:\Users\ditt-användarnamn\larkstadendotorg\docs`) 
 2. Öppna Git for Windows och skriv `cd larkstadendotorg && sh publish-script.sh` följt av Enter.
