@@ -1,4 +1,4 @@
-# larkstadendotorg larkstaden.org
+# larkstadendotorg hemsida
 
 ## Publicera till Github
 
@@ -13,7 +13,7 @@
 
 ### Varje gång du vill publicera
 
-1. I Mobirise, tryck på `Publish`. Välj `Local Drive Folder` och ange sökvägen till `docs`-mappen (`C:\Users\ditt-användarnamn\larkstadendotorg\docs`) 
+1. I Mobirise, tryck på `Publish`. Välj `Local Drive Folder` och ange sökvägen till `docs`-mappen (`C:\Users\ditt-användarnamn\larkstadendotorg\docs`) så filerna skrivs över. 
 2. Öppna Git for Windows och skriv `cd larkstadendotorg && sh publish-script.sh` följt av Enter.
 3. När det efterfrågas, ange användarnamn och lösenord för githubkontot `larkstaden`. Enter för att avsluta scriptet.
 4. (Om du vill vara säker) Kolla på [webben](`https://github.com/larkstaden/larkstaden.github.io`) att det kom fram ("Added by publish-script.sh on"... dag/tid då skriptet kördes.
