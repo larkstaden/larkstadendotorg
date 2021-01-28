@@ -12,8 +12,11 @@
  git add windows-setup-script.sh
  git commit -m "Commit by windows-setup-script.sh with timestamp"
  echo ""
- echo ">>> Please wait for authentication popup    <<<"
- echo ">>> Then login using web browser and accept <<<"
+ echo ">>> Please wait for authentication popup       <<<"
+ echo ">>> Then press 'Sign in with your browser'     <<<"
+ echo ">>> Then Sign in as GitHub user 'larkstaden'   <<<"
+ echo ">>> Then press 'Authorize GitCredentialManager <<<"
+ echo ">>> Then return to this window                 <<<"
  echo ""
  git push
 # Print finish message
