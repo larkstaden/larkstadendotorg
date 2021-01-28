@@ -1,10 +1,10 @@
 # larkstadendotorg
 
-En guide nedan:
-
-## Publicera till Github
+## En guide till publicering med Github
 
 **Förklaring:** Scriptet `publish-script.sh` lägger till alla ändringar som gjorts i mappen `docs` och "pushar" upp de till Github. Genom att publicera från mobirise lokalt på datorn till just den mappen och sen köra scriptet, så hamnar ändringarna på github och därmed ut i cyberspace 😎.
+
+Först måste man konfigurera git på windows.
 
 ### Första gången: Windows setup
 
@@ -12,7 +12,7 @@ En guide nedan:
 2. Starta Git Bash (en del av Git for Windows)
 3. Klistra in: `git clone https://github.com/larkstaden/larkstadendotorg.git` och tryck Enter.
 En kopia av webbsidefilerna laddas ned till din hemma-mapp (`C:\Users\användarnamn\larkstadendotorg`).
-4. Öppna utforskaren och gå till den mappen.
+4. Öppna utforskaren och gå till mappen `larkstadendotorg`.
 5. Dubbelklicka på `windows-setup-script` och följ anvisningar. Du kommer ombedas att logga in i webbläsaren.
 
 Klart.
@@ -21,13 +21,11 @@ Klart.
 
 1. I Mobirise, tryck på `Publish`. Välj `Local Drive Folder` och ange sökvägen **till `docs`-mappen** (`C:\Users\ditt-användarnamn\larkstadendotorg\docs`) så filerna skrivs över av de nya.
 2. Dubbelklicka på `publish-script` som ligger i mappen `larkstadendotorg`.
-3. När det efterfrågas, ange användarnamn och lösenord för githubkontot `larkstaden`. Enter för att avsluta scriptet.
-4. (Om du vill vara säker) Kolla på [webben](`https://github.com/larkstaden/larkstaden.github.io`) att det kom fram ("Added by publish-script.sh on"... dag/tid då skriptet kördes.
+3. Följ anvisningar
 
-#### Istället för steg 2:
-Om Git Bash är inställt som förval i Windows för att öppna `.sh`-filer, så ska man kunna dubbelklicka på `publish-script.sh` från utforskaren för att köra scriptet, istället för kommandot i steg 2. Då blir det bara ett extra klick utöver publiceraknappen i Mobirise.
+### Frivilligt
 
-## Tips
 Gör en genväg till `publish-script` och lägg på skrivbordet.
+
 
 
