@@ -6,15 +6,15 @@
  git stash pop --quiet
  sed -i "/mobirise/d" docs/*.html
  git add docs
- git commit docs -m "Added by publish-script.sh on $(date)"
+ git commit docs -m "Commit by publish-script.sh on $(date)"
  git push
  echo ""
  echo " ________________________________________________________ " 
  echo "| Script is done :-)                                     |"
- echo "|                                                        |"
+ echo "| In addition to syncing with GitHub, it removes all     |"
+ echo "| lines containing the word mobirise from all html files |"
+ echo "| removing the annoying mobirise banners.                |"
  echo "| Changes should be on Github and the website in seconds |"
- echo "| Want to double check?                                  |"
- echo "| Visit: https://github.com/larkstaden/larkstadendotorg  |" 
  echo "|                                                        |"
  echo "| Press Enter to exit...                                 |"
  echo " ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ "
