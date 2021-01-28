@@ -20,10 +20,13 @@
  echo "| - Set username to larkstaden                           |"
  echo "| - Set email to larkstaden@gmail.com                    |"
  echo "| - Enable CLRF line ending conversion without warnings  |"
- echo "| - Setup Github credentials by pushing a timestamp here |"
+ echo "| - Setup login credentials with GCMC (the popup)        |"
+ echo "| Online changes:                                        |"
+ echo "| - A timestamp appended to initial-setup-script.sh      |"
  echo "|                                                        |"
  echo "| Press Enter to exit...                                 |"
  echo " ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ "
  read
 
 #Log: This script ran on Tor 28 Jan 2021 13:58:14 CET
+#Log: This script ran on Tor 28 Jan 2021 14:01:55 CET
