@@ -1,7 +1,6 @@
 #!/bin/sh
 
- git checkout master
- git reset
+ #git checkout master
  git stash
  git pull --rebase
  git stash pop
