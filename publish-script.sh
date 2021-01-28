@@ -1,6 +1,10 @@
 #!/bin/sh
 
- #git checkout master
+ git checkout master
+ git reset
+ git stash
+ git pull --rebase
+ git stash pop
  git add docs
  git commit docs -m "Added by publish-script.sh on $(date)"
  git push
