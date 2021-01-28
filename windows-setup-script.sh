@@ -11,7 +11,10 @@
  git reset
  git add windows-setup-script.sh
  git commit -m "Commit by windows-setup-script.sh with timestamp"
- echo ">>> Please wait for authentication popup <<<"
+ echo ""
+ echo ">>> Please wait for authentication popup    <<<"
+ echo ">>> Then login using web browser and accept <<<"
+ echo ""
  git push
 # Print finish message
  echo 
