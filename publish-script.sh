@@ -1,9 +1,9 @@
 #!/bin/sh
 
  #git checkout master
- git stash
- git pull --rebase
- git stash pop
+ git stash --quiet
+ git pull --rebase --quiet
+ git stash pop --quiet
  git add docs
  git commit docs -m "Added by publish-script.sh on $(date)"
  git push
