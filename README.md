@@ -6,17 +6,19 @@
 
 ## Första gången
 
-0. Installera [Git for Windows](https://gitforwindows.org)
-1. Starta Git for Windows
-2. Klistra in: `git clone https://github.com/larkstaden/larkstadendotorg.git` och tryck Enter
-3. En kopia av Githubfilerna laddas ned till din hemma-mapp (`C:\Users\användarnamn\larkstadendotorg`)
+1. Installera [Git for Windows](https://gitforwindows.org)
+2. Starta Git for Windows
+3. Klistra in: `git clone https://github.com/larkstaden/larkstadendotorg.git` och tryck Enter
+
+En kopia av Githubfilerna laddas ned till din hemma-mapp (`C:\Users\användarnamn\larkstadendotorg`)
 
 ### Varje gång du vill publicera
 
-1. I Mobirise, tryck på `Publish`. Välj `Local Drive Folder` och ange sökvägen till `docs`-mappen (`C:\Users\ditt-användarnamn\larkstadendotorg\docs`) så filerna skrivs över. 
+1. I Mobirise, tryck på `Publish`. Välj `Local Drive Folder` och ange sökvägen till `docs`-mappen (`C:\Users\ditt-användarnamn\larkstadendotorg\docs`) så filerna skrivs över av det nya. 
 2. Öppna Git for Windows och skriv `cd ~/larkstadendotorg && sh publish-script.sh` följt av Enter.
 3. När det efterfrågas, ange användarnamn och lösenord för githubkontot `larkstaden`. Enter för att avsluta scriptet.
 4. (Om du vill vara säker) Kolla på [webben](`https://github.com/larkstaden/larkstaden.github.io`) att det kom fram ("Added by publish-script.sh on"... dag/tid då skriptet kördes.
 
 #### Istället för steg 2:
-Om Windows är inställt för att öppna `.sh`-filer med Git for Windows, så ska man kunna dubbelklicka på `publish-script.sh` från utforskaren för att köra scriptet. Då blir det bara ett extra klick efter publiceraknappen i Mobirise.
+Om Git for Windows är inställt som förval i Windows för att öppna `.sh`-filer, så ska man kunna dubbelklicka på `publish-script.sh` från utforskaren för att köra scriptet, istället för kommandot i steg 2. Då blir det bara ett extra klick utöver publiceraknappen i Mobirise.
+
