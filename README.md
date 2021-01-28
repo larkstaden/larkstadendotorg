@@ -11,11 +11,9 @@ En guide nedan:
 1. Installera [Git for Windows](https://gitforwindows.org). Med alla förinställda val.
 2. Starta Git Bash (en del av Git for Windows)
 3. Klistra in: `git clone https://github.com/larkstaden/larkstadendotorg.git` och tryck Enter
-4. Klistra in: `git config --global core.safecrlf false`. Enter.
-4. Klistra in: `git config --global user.name larkstaden`. Enter.
-5. Klistra in: `git config --global user.email larkstaden@gmail.com`. Enter.
 En kopia av webbsidefilerna laddas ned till din hemma-mapp (`C:\Users\användarnamn\larkstadendotorg`).
-6. Dubbelklicka på `publish-script`. Vänta tills popupruta visas och klicka *Login in browser* och sedan *Authorize Git credential manager* eller liknande.
+4. Dubbelklicka på `initial-setup-script`. Enter för att avsluta.
+5. Dubbelklicka på `publish-script`. Vänta tills popupruta visas och klicka *Login in browser* och sedan *Authorize Git credential manager* eller liknande. Återvänd till Git Bash fönstret.
 
 ### Varje gång du vill publicera
 
