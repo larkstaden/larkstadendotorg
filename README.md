@@ -8,7 +8,7 @@ Först måste man installera git för windows och köra ett konfigureringsscript
 
 ### Första gången: Windows setup
 
-1. Installera [Git for Windows](https://gitforwindows.org). Med alla förinställda val.
+1. Installera [Git for Windows](https://gitforwindows.org). Tryck next med alla förinställda val.
 2. Starta Git Bash (en del av Git for Windows)
 3. Klistra in: `git clone https://github.com/larkstaden/larkstadendotorg.git` och tryck Enter.
 En kopia av webbsidefilerna laddas ned till din hemma-mapp (`C:\Users\användarnamn\larkstadendotorg`).
