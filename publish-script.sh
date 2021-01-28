@@ -1,5 +1,5 @@
 #!/bin/sh
-
+ echo "This may take a minute..."
  #git checkout master
  git stash --quiet
  git pull --rebase --quiet
