@@ -1,4 +1,4 @@
-# larkstadendotorg
+# larkstadendotorg Guide
 
 ## En guide till publicering med Github
 
