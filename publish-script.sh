@@ -4,6 +4,7 @@
  git stash --quiet
  git pull --rebase --quiet
  git stash pop --quiet
+ sed -i "/mobirise.site/d" docs/*.html
  git add docs
  git commit docs -m "Added by publish-script.sh on $(date)"
  git push
