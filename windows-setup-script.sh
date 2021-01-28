@@ -35,3 +35,4 @@
 # Self-made log messages:
 
 
+#Log: This script ran on Thu Jan 28 15:03:48     2021
