@@ -4,7 +4,7 @@
 
 **Förklaring:** Scriptet `publish-script.sh` lägger till alla ändringar som gjorts i mappen `docs` och "pushar" upp de till Github. Genom att publicera från mobirise lokalt på datorn till just den mappen och sen köra scriptet, så hamnar ändringarna på github och därmed ut i cyberspace 😎.
 
-## Första gången
+### Första gången
 
 1. Installera [Git for Windows](https://gitforwindows.org)
 2. Starta Git for Windows
