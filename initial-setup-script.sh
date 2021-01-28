@@ -28,5 +28,5 @@
  echo " ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ "
  read
 
-#Log: This script ran on Tor 28 Jan 2021 13:58:14 CET
-#Log: This script ran on Tor 28 Jan 2021 14:01:55 CET
+# Self-made log messages:
+
