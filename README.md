@@ -1,4 +1,6 @@
-# larkstadendotorg hemsida
+# larkstadendotorg
+
+En guide nedan:
 
 ## Publicera till Github
 
