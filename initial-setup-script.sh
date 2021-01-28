@@ -30,3 +30,4 @@
 
 # Self-made log messages:
 
+#Log: This script ran on Tor 28 Jan 2021 14:03:40 CET
